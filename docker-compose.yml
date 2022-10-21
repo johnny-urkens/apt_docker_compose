@@ -11,7 +11,7 @@ services:
  car-service:
   depends_on:
     - mysql
-  image: lodebosmans/apt_car_service
+  image: johnny-urkens/apt_car_service
   ports:
     - 9000:9000
   links:
