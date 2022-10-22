@@ -40,7 +40,7 @@ services:
    MYSQL_DB_PASSWORD: abc123
    MYSQL_DB_HOST: mysql
 
-apt_edge_service:
+ apt_edge_service:
   depends_on:
     - apt_car_service
     - apt_scan_service
