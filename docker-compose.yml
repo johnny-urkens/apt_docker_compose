@@ -44,7 +44,7 @@ apt_edge_service:
   depends_on:
     - apt_car_service
     - apt_scan_service
-  image: miverboven/brank-edge-service-ex
+  image: r0790759/apt_edge_service
   ports:
     - 9002:9002
   links:
