@@ -52,7 +52,7 @@ services:
     - apt_scan_service
   environment:
    APT_SCAN_SERVICE_BASEURL: apt_scan_service:9001
-   APT_CAR_SERVICE BASEURL: apt_car_service:9000
+   APT_CAR_SERVICE_BASEURL: apt_car_service:9000
    
 volumes:
  mongodb_data_container:
