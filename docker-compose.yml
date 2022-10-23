@@ -27,7 +27,7 @@ services:
    MONGODB_PORT: 27017
    MONGODB_HOST: mongo
    
- apt-car-service:
+ apt-car-service-1:
   depends_on:
     - mysql
   image: r0790759/apt-car-service
