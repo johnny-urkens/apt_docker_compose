@@ -44,7 +44,7 @@ services:
   depends_on:
     - apt_car_service
     - apt_scan_service
-  image: r0790759/apt_edge_service
+  image: r0790759/apt-edge-service
   ports:
     - 9002:9002
   links:
